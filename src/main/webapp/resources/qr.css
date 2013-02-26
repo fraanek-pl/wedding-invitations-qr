@@ -1,0 +1,47 @@
+@page {
+  size: A4 portrait;
+}
+
+body {
+font: 7pt Georgia, "Times New Roman", Times, serif;
+line-height: 0.5;
+}
+
+.qrbox {
+float: right;
+display: block;
+padding: 4pt;
+border: 1pt solid black;
+-webkit-border-radius: 4pt;
+border-radius: 4pt;
+margin: 2pt;
+}
+
+.qrbox > img {
+display: block;
+max-width: 100%;
+margin-right: auto;
+margin-left: auto;
+vertical-align: middle;
+border: 0;
+}
+
+.qrbox > p {
+ display: block;
+ max-width: 100%;
+ margin-right: auto;
+ margin-left: auto;
+ vertical-align: middle;
+ text-align: center;
+ border: 0;
+ }
+
+.qrbox > p.info {
+
+}
+
+.qrbox > p.url {
+font-weight: bold;
+}
+
+.page-break  { display: block; page-break-before: always; }
