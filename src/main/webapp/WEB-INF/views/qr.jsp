@@ -12,7 +12,7 @@
 <p class="info">lub przejdź pod adres</p>
 <p class="url">${qrurl.url}</p>
 </div>
-<c:if test="${row.count % 5 == 0}">
+<c:if test="${row.count % 10 == 0}">
 <div class="page-break"></div>
 </c:if>
 </c:forEach>

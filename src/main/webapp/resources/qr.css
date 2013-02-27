@@ -1,20 +1,26 @@
 @page {
-  size: A4 portrait;
+  size: A4 landscape;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 body {
-font: 7pt Georgia, "Times New Roman", Times, serif;
+font: 6pt Georgia, "Times New Roman", Times, serif;
 line-height: 0.5;
 }
 
 .qrbox {
-float: right;
+float: left;
 display: block;
 padding: 4pt;
 border: 1pt solid black;
 -webkit-border-radius: 4pt;
 border-radius: 4pt;
-margin: 2pt;
+margin: 0.5pt;
+width: 90px;
+height: 135px;
 }
 
 .qrbox > img {
@@ -34,6 +40,7 @@ border: 0;
  vertical-align: middle;
  text-align: center;
  border: 0;
+ padding: 0;
  }
 
 .qrbox > p.info {
